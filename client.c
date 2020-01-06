@@ -303,7 +303,7 @@ int main (int argc, char *argv[]) {
         scanf("%s", password_send);
 
         // criptam parola
-        // strcpy(password_send, encryptString(password_send));
+        strcpy(password_send, encryptString(password_send));
 
         // trimitem parola serverului
         if (write(sd, password_send, sizeof(password_send)) <= 0) {
