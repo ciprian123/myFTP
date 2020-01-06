@@ -7,16 +7,16 @@ CREATE TABLE USERS (
 );
 
 INSERT INTO USERS (USERNAME, PASSWORD, BAN_STATUS)
-VALUES ('root', 'root', 0);
+VALUES ('root', '{xx}', 0); -- root e parola
 
 INSERT INTO USERS (USERNAME, PASSWORD, BAN_STATUS)
-VALUES ('admin', 'admin', 1);
+VALUES ('admin', 'knwsx', 1); -- admin e parola
 
 INSERT INTO USERS (USERNAME, PASSWORD, BAN_STATUS)
-VALUES ('ciprianos', 'lfacishard', 0);
+VALUES ('ciprianos', 'lfacishard', 1);
 
 INSERT INTO USERS (USERNAME, PASSWORD, BAN_STATUS)
-VALUES ('ciprianos123', 'bdisharder', 0);
+VALUES ('ciprianos123', 'bdisharder', 1);
 
 INSERT INTO USERS (USERNAME, PASSWORD, BAN_STATUS)
 VALUES ('florinsalam', 'distractiamapamondului', 1);
